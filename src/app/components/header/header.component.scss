@@ -1,0 +1,20 @@
+@import "../../../sass/abstracts/variables.scss";
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background: linear-gradient(270deg, #0500FF 0%, #4F26C2 102.78%, #0D47A1 102.78%);
+  color: $white;
+}
+
+.header img{
+  width: 25%;
+}
+
+.header h1{
+  text-align: center;
+  width: 40%;
+  font-size: 2em;
+}
